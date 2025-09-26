@@ -18,7 +18,7 @@
 <form action="/contact" method="POST">
     @csrf
 
-    <label for="name">Name:</label></br>
+    <label for="name">full Name:</label></br>
     <input type="text" name="name" value="{{ old ('name') }}" ></br>
 
     <label for="message">Message:</label></br>
